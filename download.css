@@ -1,0 +1,100 @@
+.download {
+
+    display: flex;
+    justify-content: center;
+    background-color: #fbfbfb;
+    border-bottom: solid 2px #e0e0e0;
+}
+
+.download .inner {
+
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.download .inner .text {
+
+    text-align: center;
+}
+
+.download .inner .text::after {
+
+    content: '';
+    display: block;
+    border: solid 1px #e0e0e0;
+    border-radius: 10px 10px 10px 10px;
+    height: 0;
+    width: 60px;
+    margin: 35px auto;
+}
+
+.download .inner .text h3 {
+
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #828282;
+}
+
+.download .inner .text p {
+
+    font-size: 20px;
+    color: #999999;
+    line-height: 30px;
+
+}
+
+.download .inner .buttons {
+
+    display: flex;
+    justify-content: center;
+}
+
+.download .inner .buttons .button {
+    background-color: #4696E5;
+    color: white;
+    margin-right: 18px;
+}
+
+.download .inner .buttons .button:hover {
+
+    background-color: #6faff0;
+}
+
+.download .inner .buttons .learnmore {
+
+    color: #828282;
+    border: solid 2px #e0e0e0;
+}
+
+.download .inner .buttons .learnmore:hover {
+
+    background-color: #f3f3f3;
+}
+
+/* @media screen and (max-width: ) */
+
+@media screen and (max-width: 615px) {
+
+    .download .inner {
+
+        padding: 40px 10px;
+    }
+
+    .download .inner .text h3 {
+
+        font-size: 24px;
+    }
+
+    .download .inner .text p {
+
+        font-size: 17px;
+    }
+
+    .download .inner .buttons {
+
+        justify-content: center;
+        flex-direction: column;
+    }
+}

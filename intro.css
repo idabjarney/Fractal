@@ -51,29 +51,19 @@
     text-decoration: none;
 }
 
-.intro .heading button {
-    
-    height: 50px;
-    width: 180px;
-    border-radius: 10px 10px 10px 10px;
-    font-size: 19px;
-    font-weight: 550;
-    color: #4696E5;
-    background-color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: 400ms;
+.intro .heading .button {
+
     margin-left:65px;
     margin-right: 15px;
-    display: block;
+ 
 }
 
-.intro .heading button:hover {
+.intro .heading .button:hover {
 
     background-color: #D1E5F9;
 }
 
-.intro .heading .learnmore {
+/* .intro .heading .learnmore {
 
     display: block;
     height: 50px;
@@ -89,7 +79,7 @@
     text-decoration: none;
     transition: 400ms;
 
-}
+} */
 
 .intro .heading .learnmore:hover {
 
@@ -227,17 +217,17 @@
         border: solid 2px rgba(255, 255, 255, 0.3);
     }
 
-    .intro .inner .links button {
+    /* .intro .inner .links button {
 
         margin-left: 0;
         width: 100%;
         margin-bottom: 10px;
-    }
+    } */
 
-    .intro .inner .links .learnmore {
+    /* .intro .inner .links .learnmore {
 
         width: 100%;
-    }
+    } */
 
     .intro .inner .links {
 
@@ -264,17 +254,17 @@
         font-size: 18px;
     }
 
-    .intro .inner .links button {
+    /* .intro .inner .links button {
 
         margin-left: 0;
         width: 100%;
         margin-bottom: 10px;
-    }
+    } */
 
-    .intro .inner .links .learnmore {
+    /* .intro .inner .links .learnmore {
 
         width: 100%;
-    }
+    } */
 
     .intro .inner .links {
 

@@ -17,3 +17,58 @@ body {
 }
 
 
+.button {
+    
+    height: 50px;
+    width: 180px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 19px;
+    font-weight: 550;
+    color: #4696E5;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    display: block;
+}
+
+.learnmore {
+
+    display: block;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 19px;
+    font-weight: 550;
+    color: white;
+    background-color: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    transition: 400ms;
+
+}
+
+@media screen and (max-width: 830px) {
+    .button {
+
+        margin-left: 0 !important;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .learnmore {
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .button {
+
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}
