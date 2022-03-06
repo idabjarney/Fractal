@@ -1,0 +1,284 @@
+.intro {
+
+    background-color: #4696e5;
+    background-image: url('https://html5up.net/uploads/demos/fractal/assets/css/images/overlay.png'), url('https://html5up.net/uploads/demos/fractal/assets/css/images/pattern-size1.svg');
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    display: flex;
+    padding: 5px;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .inner {
+
+    display: flex;
+    align-items: center;
+}
+.intro .heading {
+
+    
+    max-width: 500px;
+    color: white;
+    padding: 4px;
+    text-align: end;
+    letter-spacing: -0.015em;
+    margin-right: 45px;
+    animation: slideIn 3s ease forwards;
+    
+
+}
+
+.intro .heading h1 {
+
+    margin-bottom: 30px;
+    text-align: end;
+    font-size: 60px;
+}
+.intro .heading p {
+    font-size: 28px;
+    color: #D1E5F9;
+    margin-bottom: 45px;
+}
+
+.intro .heading p .link {
+    
+    color: white;
+    border-bottom: dotted 1px white;
+    text-decoration: none;
+}
+
+.intro .heading button {
+    
+    height: 50px;
+    width: 180px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 19px;
+    font-weight: 550;
+    color: #4696E5;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left:65px;
+    margin-right: 15px;
+    display: block;
+}
+
+.intro .heading button:hover {
+
+    background-color: #D1E5F9;
+}
+
+.intro .heading .learnmore {
+
+    display: block;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 19px;
+    font-weight: 550;
+    color: white;
+    background-color: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    transition: 400ms;
+
+}
+
+.intro .heading .learnmore:hover {
+
+    background-color: rgba(255, 255, 255, 0.301);
+}
+
+.links i {
+    margin-right: 3px;
+}
+
+.intro .inner .heading .links {
+    text-align: left;
+    display: flex;
+}
+
+.intro .phone {
+
+    border: solid 2px rgba(255, 255, 255, 0.3);
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0;
+    animation: slideUp 2000ms ease forwards;
+    width: 270px;
+
+}
+
+
+
+.intro img {
+
+    width: 100%;
+    border-top: solid 2px rgba(255, 255, 255, 0.3);
+    border-bottom: solid 2px rgba(255, 255, 255, 0.3);
+}
+
+
+.intro .phone::before {
+
+    content: '';
+    display: block;
+    margin: 20px auto;
+    height: 0px;
+    width: 30px;
+    border: solid 2px rgba(255, 255, 255, 0.3);
+    border-radius: 17%;
+}
+
+.intro .phone::after {
+
+    content: '';
+    display: block;
+    margin: 15px auto;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    border: solid 2px rgba(255, 255, 255, 0.3);
+}
+
+
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }   
+}
+
+@keyframes slideIn {
+
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@media screen and (max-width: 830px) {
+    .intro .inner {
+        
+        flex-direction: column-reverse;
+        
+    }
+
+    .intro .inner .phone {
+        
+        width: 180px;
+    }
+
+    .intro .inner .heading {
+        
+        margin: 0;
+        text-align: center;
+    }
+
+    .intro .inner .heading h1 {
+
+        text-align: center;
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .intro .inner .heading p {
+
+        font-size: 20px;
+    }
+
+
+
+    .intro .phone::before {
+
+        content: '';
+        display: block;
+        margin: 13px auto;
+        height: 0px;
+        width: 20px;
+        border: solid 1px rgba(255, 255, 255, 0.3);
+        border-radius: 17%;
+    }
+    
+    .intro .phone::after {
+
+        content: '';
+        display: block;
+        margin: 5px auto;
+        height: 18px;
+        width: 18px;
+        border-radius: 100%;
+        border: solid 2px rgba(255, 255, 255, 0.3);
+    }
+
+    .intro .inner .links button {
+
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .intro .inner .links .learnmore {
+
+        width: 100%;
+    }
+
+    .intro .inner .links {
+
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .intro .inner .phone {
+
+        width: 140px;
+    }
+
+    .intro .inner .heading h1 {
+
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .intro .inner .heading p {
+
+        font-size: 18px;
+    }
+
+    .intro .inner .links button {
+
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .intro .inner .links .learnmore {
+
+        width: 100%;
+    }
+
+    .intro .inner .links {
+
+        justify-content: center;
+        flex-direction: column;
+    }
+}
