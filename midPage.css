@@ -3,10 +3,9 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 70px;
-    padding-bottom: 40px;
     background-color: #FBFBFB;
     border-bottom: solid 2px #a74545;
+    padding: 70px 15px 40px 15px;
 }
 
 .midPage .inner {
@@ -69,4 +68,36 @@
     color: #999999;
     line-height: 25px;
 
+}
+
+@media  screen and (max-width: 715px) {
+
+    .midPage .inner .spotlight {
+
+        flex-direction: column !important;
+        text-align: center !important;
+
+    }
+
+    .midPage .inner .spotlight .image {
+
+        min-width: 0px;
+        max-width: 200px;
+        margin: 0 0 15px 0 !important;
+    
+    }
+
+
+    .midPage .inner .spotlight .text h3 {
+
+        font-size: 24px;
+        margin-bottom: 17px !important;
+    }
+
+    .midPage .inner .spotlight .text p {
+
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
 }
