@@ -4,16 +4,16 @@
     justify-content: center;
     width: 100%;
     background-color: #FBFBFB;
-    border-bottom: solid 2px #a74545;
     padding: 70px 15px 40px 15px;
 }
 
 .midPage .inner {
-
+    
     align-items: center;
     max-width: 865px;
     text-align: center;
-
+    border-bottom: solid 2px #e0e0e0;
+    
 }
 
 .midPage .inner .spotlight {
